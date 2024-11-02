@@ -1,0 +1,25 @@
+{
+  "name": "data-generate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "faker": "^6.6.6",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.0",
+    "mongoose-seeder": "^1.2.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.1.0"
+  }
+}
